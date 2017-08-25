@@ -1,10 +1,10 @@
 ##--------------------------------------------------------------------------##
-## The following fuction Create Matrix that sets and retrieve its			##
+## The following fuction Create Matrix that sets and retrieve its	    ##
 ## values from an object that is stored in an environment different from    ##
-## the current environment.													##
-## The function performs the following tasks:								## 														
-## Set and Retrieve the value of matrix									    ##
-## Get and Sets the value of Inverse of the matrix							##
+## the current environment.						    ##
+## The function performs the following tasks:				    ## 														
+## Set and Retrieve the value of matrix					    ##
+## Get and Sets the value of Inverse of the matrix			    ##
 ##--------------------------------------------------------------------------##
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## The function calculates the Inverse of the matrix   	   ##
 ## However, it check if the inverse has already been       ##
 ## calculated. If it is already calculated then it skips   ##	
-## the calculation.										   ##	
+## the calculation.					   ##	
 ## Otherwise, it calculates the inverse of the matrix and  ##
 ## sets the value in the cache via setInverse function.    ##
 ##---------------------------------------------------------##
